@@ -1,0 +1,2 @@
+# INFOMGP
+Game physics cource
