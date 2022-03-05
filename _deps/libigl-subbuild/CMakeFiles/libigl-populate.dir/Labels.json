@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/CMakeFiles/libigl-populate"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/CMakeFiles/cf8d8013371e083d5fc28f3e07ad9d29/libigl-populate.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/CMakeFiles/5d080fcf1b53ef2f5c4d899fe3c811a1/libigl-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/CMakeFiles/c7e991e39f802c8a9677155d6f957c1a/libigl-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/CMakeFiles/c7e991e39f802c8a9677155d6f957c1a/libigl-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/CMakeFiles/c7e991e39f802c8a9677155d6f957c1a/libigl-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/CMakeFiles/c7e991e39f802c8a9677155d6f957c1a/libigl-populate-update.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/CMakeFiles/c7e991e39f802c8a9677155d6f957c1a/libigl-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/CMakeFiles/c7e991e39f802c8a9677155d6f957c1a/libigl-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/CMakeFiles/c7e991e39f802c8a9677155d6f957c1a/libigl-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/CMakeFiles/c7e991e39f802c8a9677155d6f957c1a/libigl-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libigl-populate"
+		],
+		"name" : "libigl-populate"
+	}
+}

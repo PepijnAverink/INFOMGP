@@ -1,0 +1,162 @@
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\IMGUIZMO-SUBBUILD\CMAKEFILES\CEFECC77140DF230D294D5C8C62CD4CD\IMGUIZMO-POPULATE-MKDIR.RULE
+setlocal
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-src
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-build
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/Debug/imguizmo-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\IMGUIZMO-SUBBUILD\CMAKEFILES\CEFECC77140DF230D294D5C8C62CD4CD\IMGUIZMO-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -P C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/tmp/imguizmo-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/Debug/imguizmo-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\IMGUIZMO-SUBBUILD\CMAKEFILES\CEFECC77140DF230D294D5C8C62CD4CD\IMGUIZMO-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\imguizmo-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -P C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/tmp/imguizmo-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\IMGUIZMO-SUBBUILD\CMAKEFILES\CEFECC77140DF230D294D5C8C62CD4CD\IMGUIZMO-POPULATE-PATCH.RULE
+setlocal
+"D:\Program Files\CMAKE\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/Debug/imguizmo-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\IMGUIZMO-SUBBUILD\CMAKEFILES\CEFECC77140DF230D294D5C8C62CD4CD\IMGUIZMO-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\imguizmo-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/Debug/imguizmo-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\IMGUIZMO-SUBBUILD\CMAKEFILES\CEFECC77140DF230D294D5C8C62CD4CD\IMGUIZMO-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\imguizmo-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/Debug/imguizmo-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\IMGUIZMO-SUBBUILD\CMAKEFILES\CEFECC77140DF230D294D5C8C62CD4CD\IMGUIZMO-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\imguizmo-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/Debug/imguizmo-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\IMGUIZMO-SUBBUILD\CMAKEFILES\CEFECC77140DF230D294D5C8C62CD4CD\IMGUIZMO-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\imguizmo-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/Debug/imguizmo-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\IMGUIZMO-SUBBUILD\CMAKEFILES\3619C31D193132B13DE54CCDE524200C\IMGUIZMO-POPULATE-COMPLETE.RULE
+setlocal
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/Debug/imguizmo-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/Debug/imguizmo-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\IMGUIZMO-SUBBUILD\CMAKEFILES\D0FD19A27CFB6019F9E82918CCFAF1BB\IMGUIZMO-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\IMGUIZMO-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMAKE\bin\cmake.exe" -SC:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild -BC:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild --check-stamp-file C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

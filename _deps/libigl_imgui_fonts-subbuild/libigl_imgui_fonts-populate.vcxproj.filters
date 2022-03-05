@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl_imgui_fonts-subbuild\CMakeFiles\8ab9e021ae84ce8bd54e35fd5b57fd2b\libigl_imgui_fonts-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl_imgui_fonts-subbuild\CMakeFiles\8ab9e021ae84ce8bd54e35fd5b57fd2b\libigl_imgui_fonts-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl_imgui_fonts-subbuild\CMakeFiles\8ab9e021ae84ce8bd54e35fd5b57fd2b\libigl_imgui_fonts-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl_imgui_fonts-subbuild\CMakeFiles\8ab9e021ae84ce8bd54e35fd5b57fd2b\libigl_imgui_fonts-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl_imgui_fonts-subbuild\CMakeFiles\8ab9e021ae84ce8bd54e35fd5b57fd2b\libigl_imgui_fonts-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl_imgui_fonts-subbuild\CMakeFiles\8ab9e021ae84ce8bd54e35fd5b57fd2b\libigl_imgui_fonts-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl_imgui_fonts-subbuild\CMakeFiles\8ab9e021ae84ce8bd54e35fd5b57fd2b\libigl_imgui_fonts-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl_imgui_fonts-subbuild\CMakeFiles\8ab9e021ae84ce8bd54e35fd5b57fd2b\libigl_imgui_fonts-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl_imgui_fonts-subbuild\CMakeFiles\4c0665de6876d67ee3f4719550580c7c\libigl_imgui_fonts-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl_imgui_fonts-subbuild\CMakeFiles\226ba61d1d0404ccfc3ff2f652a92864\libigl_imgui_fonts-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl_imgui_fonts-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl_imgui_fonts-subbuild\CMakeFiles\libigl_imgui_fonts-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8F2608AC-F81B-3614-9786-9BB04B8C8D59}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

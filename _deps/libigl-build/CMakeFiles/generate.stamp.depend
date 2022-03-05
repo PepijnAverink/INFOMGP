@@ -1,0 +1,31 @@
+# CMake generation dependency list for this directory.
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-src/CMakeLists.txt
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-src/cmake/igl/igl_add_library.cmake
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-src/cmake/igl/igl_add_test.cmake
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-src/cmake/igl/igl_add_tutorial.cmake
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-src/cmake/igl/igl_copy_dll.cmake
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-src/cmake/igl/igl_include.cmake
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-src/cmake/igl/igl_install.cmake
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-src/cmake/igl/igl_target_sources.cmake
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-src/cmake/igl/igl_windows.cmake
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-src/cmake/igl/modules/core.cmake
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-src/cmake/igl/modules/glfw.cmake
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-src/cmake/igl/modules/imgui.cmake
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-src/cmake/igl/modules/opengl.cmake
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-src/cmake/libigl.cmake
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-src/cmake/recipes/external/eigen.cmake
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-src/cmake/recipes/external/glad.cmake
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-src/cmake/recipes/external/glfw.cmake
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-src/cmake/recipes/external/imgui.cmake
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-src/cmake/recipes/external/imguizmo.cmake
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-src/cmake/recipes/external/libigl_imgui_fonts.cmake
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/CheckCSourceCompiles.cmake
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/CheckIncludeFile.cmake
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/CheckLibraryExists.cmake
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/FetchContent.cmake
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/FetchContent/CMakeLists.cmake.in
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/FindOpenGL.cmake
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/FindPackageMessage.cmake
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/FindThreads.cmake
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/GNUInstallDirs.cmake

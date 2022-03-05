@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/imguizmo-populate"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/d0fd19a27cfb6019f9e82918ccfaf1bb/imguizmo-populate.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/3619c31d193132b13de54ccde524200c/imguizmo-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/cefecc77140df230d294d5c8c62cd4cd/imguizmo-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/cefecc77140df230d294d5c8c62cd4cd/imguizmo-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/cefecc77140df230d294d5c8c62cd4cd/imguizmo-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/cefecc77140df230d294d5c8c62cd4cd/imguizmo-populate-update.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/cefecc77140df230d294d5c8c62cd4cd/imguizmo-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/cefecc77140df230d294d5c8c62cd4cd/imguizmo-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/cefecc77140df230d294d5c8c62cd4cd/imguizmo-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/cefecc77140df230d294d5c8c62cd4cd/imguizmo-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"imguizmo-populate"
+		],
+		"name" : "imguizmo-populate"
+	}
+}

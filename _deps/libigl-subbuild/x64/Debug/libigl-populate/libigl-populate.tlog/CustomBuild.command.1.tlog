@@ -1,0 +1,162 @@
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\LIBIGL-SUBBUILD\CMAKEFILES\C7E991E39F802C8A9677155D6F957C1A\LIBIGL-POPULATE-MKDIR.RULE
+setlocal
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-src
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-build
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/libigl-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/libigl-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/libigl-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/Debug/libigl-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\LIBIGL-SUBBUILD\CMAKEFILES\C7E991E39F802C8A9677155D6F957C1A\LIBIGL-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -P C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/libigl-populate-prefix/tmp/libigl-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/Debug/libigl-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\LIBIGL-SUBBUILD\CMAKEFILES\C7E991E39F802C8A9677155D6F957C1A\LIBIGL-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -P C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/libigl-populate-prefix/tmp/libigl-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\LIBIGL-SUBBUILD\CMAKEFILES\C7E991E39F802C8A9677155D6F957C1A\LIBIGL-POPULATE-PATCH.RULE
+setlocal
+"D:\Program Files\CMAKE\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/Debug/libigl-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\LIBIGL-SUBBUILD\CMAKEFILES\C7E991E39F802C8A9677155D6F957C1A\LIBIGL-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/Debug/libigl-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\LIBIGL-SUBBUILD\CMAKEFILES\C7E991E39F802C8A9677155D6F957C1A\LIBIGL-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/Debug/libigl-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\LIBIGL-SUBBUILD\CMAKEFILES\C7E991E39F802C8A9677155D6F957C1A\LIBIGL-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/Debug/libigl-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\LIBIGL-SUBBUILD\CMAKEFILES\C7E991E39F802C8A9677155D6F957C1A\LIBIGL-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/Debug/libigl-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\LIBIGL-SUBBUILD\CMAKEFILES\5D080FCF1B53EF2F5C4D899FE3C811A1\LIBIGL-POPULATE-COMPLETE.RULE
+setlocal
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/CMakeFiles/Debug/libigl-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/Debug/libigl-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\LIBIGL-SUBBUILD\CMAKEFILES\CF8D8013371E083D5FC28F3E07AD9D29\LIBIGL-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\LIBIGL-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMAKE\bin\cmake.exe" -SC:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild -BC:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild --check-stamp-file C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

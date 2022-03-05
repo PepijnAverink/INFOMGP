@@ -1,0 +1,14 @@
+# Target labels
+ imguizmo-populate
+# Source files and their labels
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/imguizmo-populate
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/d0fd19a27cfb6019f9e82918ccfaf1bb/imguizmo-populate.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/3619c31d193132b13de54ccde524200c/imguizmo-populate-complete.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/cefecc77140df230d294d5c8c62cd4cd/imguizmo-populate-install.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/cefecc77140df230d294d5c8c62cd4cd/imguizmo-populate-mkdir.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/cefecc77140df230d294d5c8c62cd4cd/imguizmo-populate-download.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/cefecc77140df230d294d5c8c62cd4cd/imguizmo-populate-update.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/cefecc77140df230d294d5c8c62cd4cd/imguizmo-populate-patch.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/cefecc77140df230d294d5c8c62cd4cd/imguizmo-populate-configure.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/cefecc77140df230d294d5c8c62cd4cd/imguizmo-populate-build.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/cefecc77140df230d294d5c8c62cd4cd/imguizmo-populate-test.rule

@@ -1,0 +1,32 @@
+﻿  Building Custom Rule C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/CMakeLists.txt
+  ccd.c
+  mpr.c
+  polytope.c
+  support.c
+  vec3.c
+C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\mpr.c(100,1): warning C4273: 'ccdMPRIntersect': inconsistent dll linkage
+C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\ccd.h(131,17): message : see previous definition of 'ccdMPRIntersect' (compiling source file C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\mpr.c)
+C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\mpr.c(119,1): warning C4273: 'ccdMPRPenetration': inconsistent dll linkage
+C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\ccd.h(146,17): message : see previous definition of 'ccdMPRPenetration' (compiling source file C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\mpr.c)
+C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\vec3.c(133,1): warning C4273: 'ccdVec3PointSegmentDist2': inconsistent dll linkage
+C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\vec3.h(188,24): message : see previous definition of 'ccdVec3PointSegmentDist2' (compiling source file C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\vec3.c)
+C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\vec3.c(141,1): warning C4273: 'ccdVec3PointTriDist2': inconsistent dll linkage
+C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\vec3.h(198,24): message : see previous definition of 'ccdVec3PointTriDist2' (compiling source file C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\vec3.c)
+C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\ccd.c(87,1): warning C4273: 'ccdFirstDirDefault': inconsistent dll linkage
+C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\ccd.h(75,18): message : see previous definition of 'ccdFirstDirDefault' (compiling source file C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\ccd.c)
+C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\ccd.c(92,1): warning C4273: 'ccdGJKIntersect': inconsistent dll linkage
+C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\ccd.h(96,17): message : see previous definition of 'ccdGJKIntersect' (compiling source file C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\ccd.c)
+C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\ccd.c(99,1): warning C4273: 'ccdGJKSeparate': inconsistent dll linkage
+C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\ccd.h(107,17): message : see previous definition of 'ccdGJKSeparate' (compiling source file C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\ccd.c)
+C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\ccd.c(177,1): warning C4273: 'ccdGJKPenetration': inconsistent dll linkage
+C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\ccd.h(124,17): message : see previous definition of 'ccdGJKPenetration' (compiling source file C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\ccd.c)
+  main.cpp
+     Creating library C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/Debug/Practical1_bin.lib and object C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/Debug/Practical1_bin.exp
+LINK : warning LNK4217: symbol 'ccdVec3PointSegmentDist2' defined in 'vec3.obj' is imported by 'ccd.obj' in function 'nextSupport'
+LINK : warning LNK4286: symbol 'ccdVec3PointSegmentDist2' defined in 'vec3.obj' is imported by 'polytope.obj'
+LINK : warning LNK4217: symbol 'ccdVec3PointTriDist2' defined in 'vec3.obj' is imported by 'ccd.obj' in function 'doSimplex3'
+LINK : warning LNK4286: symbol 'ccdVec3PointTriDist2' defined in 'vec3.obj' is imported by 'mpr.obj'
+LINK : warning LNK4286: symbol 'ccdVec3PointTriDist2' defined in 'vec3.obj' is imported by 'polytope.obj'
+LINK : warning LNK4217: symbol 'ccdFirstDirDefault' defined in 'ccd.obj' is imported by 'main.obj' in function '"public: bool __cdecl Mesh::isCollide(class Mesh const &,double &,class Eigen::Matrix<double,1,3,1,1,3> &,class Eigen::Matrix<double,1,3,1,1,3> &)" (?isCollide@Mesh@@QEAA_NAEBV1@AEANAEAV?$Matrix@N$00$02$00$00$02@Eigen@@2@Z)'
+LINK : warning LNK4217: symbol 'ccdMPRPenetration' defined in 'mpr.obj' is imported by 'main.obj' in function '"public: bool __cdecl Mesh::isCollide(class Mesh const &,double &,class Eigen::Matrix<double,1,3,1,1,3> &,class Eigen::Matrix<double,1,3,1,1,3> &)" (?isCollide@Mesh@@QEAA_NAEBV1@AEANAEAV?$Matrix@N$00$02$00$00$02@Eigen@@2@Z)'
+  Practical1_bin.vcxproj -> C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\Debug\Practical1_bin.exe

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glad-subbuild/CMakeFiles/glad-populate"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glad-subbuild/CMakeFiles/1d1e7b291a3c366c556f92933fed7d50/glad-populate.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glad-subbuild/CMakeFiles/7da03e02ed19c3905f4a98322b0d4c09/glad-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glad-subbuild/CMakeFiles/8a01786cf976edbd950196e9350e8979/glad-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glad-subbuild/CMakeFiles/8a01786cf976edbd950196e9350e8979/glad-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glad-subbuild/CMakeFiles/8a01786cf976edbd950196e9350e8979/glad-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glad-subbuild/CMakeFiles/8a01786cf976edbd950196e9350e8979/glad-populate-update.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glad-subbuild/CMakeFiles/8a01786cf976edbd950196e9350e8979/glad-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glad-subbuild/CMakeFiles/8a01786cf976edbd950196e9350e8979/glad-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glad-subbuild/CMakeFiles/8a01786cf976edbd950196e9350e8979/glad-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glad-subbuild/CMakeFiles/8a01786cf976edbd950196e9350e8979/glad-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glad-populate"
+		],
+		"name" : "glad-populate"
+	}
+}

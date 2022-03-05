@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl-src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl-src\include\igl\opengl\glfw\imgui\ImGuiHelpers.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl-src\include\igl\opengl\glfw\imgui\ImGuiMenu.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl-src\include\igl\opengl\glfw\imgui\ImGuiPlugin.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl-src\include\igl\opengl\glfw\imgui\ImGuiTraits.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl-src\include\igl\opengl\glfw\imgui\ImGuiWidget.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl-src\include\igl\opengl\glfw\imgui\ImGuizmoWidget.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl-src\include\igl\opengl\glfw\imgui\SelectionWidget.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl-src\include\igl\opengl\glfw\imgui\ImGuiMenu.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl-src\include\igl\opengl\glfw\imgui\ImGuiPlugin.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl-src\include\igl\opengl\glfw\imgui\ImGuizmoWidget.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl-src\include\igl\opengl\glfw\imgui\SelectionWidget.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1FCD7E75-0AC4-3DE1-BD66-D5ECA562F6F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E737DF89-4D98-367E-9BAC-C38B483D7D83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

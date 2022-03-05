@@ -1,0 +1,10 @@
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\GLAD-SRC\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMAKE\bin\cmake.exe" -SC:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master -BC:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build --check-stamp-file C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glad-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

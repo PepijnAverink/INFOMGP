@@ -1,0 +1,14 @@
+# Target labels
+ imgui-populate
+# Source files and their labels
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imgui-subbuild/CMakeFiles/613bc5744e2951bac3273c369ef5b902/imgui-populate.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imgui-subbuild/CMakeFiles/933a0e450d4ba05731652b949fbacb5d/imgui-populate-complete.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imgui-subbuild/CMakeFiles/84424dc3cd956b95d555a27daa7a3651/imgui-populate-install.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imgui-subbuild/CMakeFiles/84424dc3cd956b95d555a27daa7a3651/imgui-populate-mkdir.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imgui-subbuild/CMakeFiles/84424dc3cd956b95d555a27daa7a3651/imgui-populate-download.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imgui-subbuild/CMakeFiles/84424dc3cd956b95d555a27daa7a3651/imgui-populate-update.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imgui-subbuild/CMakeFiles/84424dc3cd956b95d555a27daa7a3651/imgui-populate-patch.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imgui-subbuild/CMakeFiles/84424dc3cd956b95d555a27daa7a3651/imgui-populate-configure.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imgui-subbuild/CMakeFiles/84424dc3cd956b95d555a27daa7a3651/imgui-populate-build.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imgui-subbuild/CMakeFiles/84424dc3cd956b95d555a27daa7a3651/imgui-populate-test.rule

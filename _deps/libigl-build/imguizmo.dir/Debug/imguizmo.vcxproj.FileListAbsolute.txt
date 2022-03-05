@@ -1,0 +1,2 @@
+C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\lib\Debug\imguizmo.pdb
+C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl-build\imguizmo.dir\Debug\imguizmo.pdb

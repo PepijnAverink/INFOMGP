@@ -1,0 +1,162 @@
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\17202AA9FE1CB600CA23F95E8FD21BCA\GLFW-POPULATE-MKDIR.RULE
+setlocal
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-src
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/glfw-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/glfw-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\17202AA9FE1CB600CA23F95E8FD21BCA\GLFW-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -P C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\17202AA9FE1CB600CA23F95E8FD21BCA\GLFW-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\glfw-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -P C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\17202AA9FE1CB600CA23F95E8FD21BCA\GLFW-POPULATE-PATCH.RULE
+setlocal
+"D:\Program Files\CMAKE\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\17202AA9FE1CB600CA23F95E8FD21BCA\GLFW-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\17202AA9FE1CB600CA23F95E8FD21BCA\GLFW-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\17202AA9FE1CB600CA23F95E8FD21BCA\GLFW-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\17202AA9FE1CB600CA23F95E8FD21BCA\GLFW-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\14BF64769C0C454E77CFDF0A4B0E3F4D\GLFW-POPULATE-COMPLETE.RULE
+setlocal
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/CMakeFiles/Debug/glfw-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\6B7D99AC1A80FC034A7A28C45DD82F9F\GLFW-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\GLFW-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMAKE\bin\cmake.exe" -SC:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild -BC:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild --check-stamp-file C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

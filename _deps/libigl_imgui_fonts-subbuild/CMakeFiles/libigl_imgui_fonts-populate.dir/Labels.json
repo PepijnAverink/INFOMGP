@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/libigl_imgui_fonts-populate"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/226ba61d1d0404ccfc3ff2f652a92864/libigl_imgui_fonts-populate.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/4c0665de6876d67ee3f4719550580c7c/libigl_imgui_fonts-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/8ab9e021ae84ce8bd54e35fd5b57fd2b/libigl_imgui_fonts-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/8ab9e021ae84ce8bd54e35fd5b57fd2b/libigl_imgui_fonts-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/8ab9e021ae84ce8bd54e35fd5b57fd2b/libigl_imgui_fonts-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/8ab9e021ae84ce8bd54e35fd5b57fd2b/libigl_imgui_fonts-populate-update.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/8ab9e021ae84ce8bd54e35fd5b57fd2b/libigl_imgui_fonts-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/8ab9e021ae84ce8bd54e35fd5b57fd2b/libigl_imgui_fonts-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/8ab9e021ae84ce8bd54e35fd5b57fd2b/libigl_imgui_fonts-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/8ab9e021ae84ce8bd54e35fd5b57fd2b/libigl_imgui_fonts-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libigl_imgui_fonts-populate"
+		],
+		"name" : "libigl_imgui_fonts-populate"
+	}
+}

@@ -1,0 +1,162 @@
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\LIBIGL_IMGUI_FONTS-SUBBUILD\CMAKEFILES\8AB9E021AE84CE8BD54E35FD5B57FD2B\LIBIGL_IMGUI_FONTS-POPULATE-MKDIR.RULE
+setlocal
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-src
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-build
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/Debug/libigl_imgui_fonts-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\LIBIGL_IMGUI_FONTS-SUBBUILD\CMAKEFILES\8AB9E021AE84CE8BD54E35FD5B57FD2B\LIBIGL_IMGUI_FONTS-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -P C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/tmp/libigl_imgui_fonts-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/Debug/libigl_imgui_fonts-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\LIBIGL_IMGUI_FONTS-SUBBUILD\CMAKEFILES\8AB9E021AE84CE8BD54E35FD5B57FD2B\LIBIGL_IMGUI_FONTS-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl_imgui_fonts-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -P C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/tmp/libigl_imgui_fonts-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\LIBIGL_IMGUI_FONTS-SUBBUILD\CMAKEFILES\8AB9E021AE84CE8BD54E35FD5B57FD2B\LIBIGL_IMGUI_FONTS-POPULATE-PATCH.RULE
+setlocal
+"D:\Program Files\CMAKE\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/Debug/libigl_imgui_fonts-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\LIBIGL_IMGUI_FONTS-SUBBUILD\CMAKEFILES\8AB9E021AE84CE8BD54E35FD5B57FD2B\LIBIGL_IMGUI_FONTS-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl_imgui_fonts-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/Debug/libigl_imgui_fonts-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\LIBIGL_IMGUI_FONTS-SUBBUILD\CMAKEFILES\8AB9E021AE84CE8BD54E35FD5B57FD2B\LIBIGL_IMGUI_FONTS-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl_imgui_fonts-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/Debug/libigl_imgui_fonts-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\LIBIGL_IMGUI_FONTS-SUBBUILD\CMAKEFILES\8AB9E021AE84CE8BD54E35FD5B57FD2B\LIBIGL_IMGUI_FONTS-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl_imgui_fonts-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/Debug/libigl_imgui_fonts-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\LIBIGL_IMGUI_FONTS-SUBBUILD\CMAKEFILES\8AB9E021AE84CE8BD54E35FD5B57FD2B\LIBIGL_IMGUI_FONTS-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\pepij\Downloads\INFOMGP-Practical1-master\INFOMGP-Practical1-master\build\_deps\libigl_imgui_fonts-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/Debug/libigl_imgui_fonts-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\LIBIGL_IMGUI_FONTS-SUBBUILD\CMAKEFILES\4C0665DE6876D67EE3F4719550580C7C\LIBIGL_IMGUI_FONTS-POPULATE-COMPLETE.RULE
+setlocal
+"D:\Program Files\CMAKE\bin\cmake.exe" -E make_directory C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/Debug/libigl_imgui_fonts-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMAKE\bin\cmake.exe" -E touch C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/Debug/libigl_imgui_fonts-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\LIBIGL_IMGUI_FONTS-SUBBUILD\CMAKEFILES\226BA61D1D0404CCFC3FF2F652A92864\LIBIGL_IMGUI_FONTS-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PEPIJ\DOWNLOADS\INFOMGP-PRACTICAL1-MASTER\INFOMGP-PRACTICAL1-MASTER\BUILD\_DEPS\LIBIGL_IMGUI_FONTS-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMAKE\bin\cmake.exe" -SC:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild -BC:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild --check-stamp-file C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

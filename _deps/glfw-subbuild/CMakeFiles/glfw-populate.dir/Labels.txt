@@ -1,0 +1,14 @@
+# Target labels
+ glfw-populate
+# Source files and their labels
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/CMakeFiles/6b7d99ac1a80fc034a7a28c45dd82f9f/glfw-populate.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/CMakeFiles/14bf64769c0c454e77cfdf0a4b0e3f4d/glfw-populate-complete.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/CMakeFiles/17202aa9fe1cb600ca23f95e8fd21bca/glfw-populate-install.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/CMakeFiles/17202aa9fe1cb600ca23f95e8fd21bca/glfw-populate-mkdir.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/CMakeFiles/17202aa9fe1cb600ca23f95e8fd21bca/glfw-populate-download.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/CMakeFiles/17202aa9fe1cb600ca23f95e8fd21bca/glfw-populate-update.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/CMakeFiles/17202aa9fe1cb600ca23f95e8fd21bca/glfw-populate-patch.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/CMakeFiles/17202aa9fe1cb600ca23f95e8fd21bca/glfw-populate-configure.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/CMakeFiles/17202aa9fe1cb600ca23f95e8fd21bca/glfw-populate-build.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/glfw-subbuild/CMakeFiles/17202aa9fe1cb600ca23f95e8fd21bca/glfw-populate-test.rule

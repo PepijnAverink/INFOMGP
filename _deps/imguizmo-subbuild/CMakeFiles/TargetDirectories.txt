@@ -1,0 +1,3 @@
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/imguizmo-populate.dir
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/imguizmo-subbuild/CMakeFiles/ZERO_CHECK.dir

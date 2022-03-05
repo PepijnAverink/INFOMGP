@@ -1,0 +1,14 @@
+# Target labels
+ libigl_imgui_fonts-populate
+# Source files and their labels
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/libigl_imgui_fonts-populate
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/226ba61d1d0404ccfc3ff2f652a92864/libigl_imgui_fonts-populate.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/4c0665de6876d67ee3f4719550580c7c/libigl_imgui_fonts-populate-complete.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/8ab9e021ae84ce8bd54e35fd5b57fd2b/libigl_imgui_fonts-populate-install.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/8ab9e021ae84ce8bd54e35fd5b57fd2b/libigl_imgui_fonts-populate-mkdir.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/8ab9e021ae84ce8bd54e35fd5b57fd2b/libigl_imgui_fonts-populate-download.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/8ab9e021ae84ce8bd54e35fd5b57fd2b/libigl_imgui_fonts-populate-update.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/8ab9e021ae84ce8bd54e35fd5b57fd2b/libigl_imgui_fonts-populate-patch.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/8ab9e021ae84ce8bd54e35fd5b57fd2b/libigl_imgui_fonts-populate-configure.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/8ab9e021ae84ce8bd54e35fd5b57fd2b/libigl_imgui_fonts-populate-build.rule
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/8ab9e021ae84ce8bd54e35fd5b57fd2b/libigl_imgui_fonts-populate-test.rule

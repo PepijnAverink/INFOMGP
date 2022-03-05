@@ -1,0 +1,26 @@
+# CMake generation dependency list for this directory.
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/CMakeLists.txt
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/CMakeFiles/3.17.2/CMakeCCompiler.cmake
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/CMakeFiles/3.17.2/CMakeCXXCompiler.cmake
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/CMakeFiles/3.17.2/CMakeRCCompiler.cmake
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/build/CMakeFiles/3.17.2/CMakeSystem.cmake
+C:/Users/pepij/Downloads/INFOMGP-Practical1-master/INFOMGP-Practical1-master/cmake/libigl.cmake
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/CMakeCInformation.cmake
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/CMakeCXXInformation.cmake
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/CMakeCommonLanguageInclude.cmake
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/CMakeGenericSystem.cmake
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/CMakeInitializeConfigs.cmake
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/CMakeLanguageInformation.cmake
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/CMakeRCInformation.cmake
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/CMakeSystemSpecificInformation.cmake
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/CMakeSystemSpecificInitialize.cmake
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/Compiler/MSVC-C.cmake
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/Compiler/MSVC-CXX.cmake
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/FetchContent.cmake
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/FetchContent/CMakeLists.cmake.in
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/Platform/Windows-MSVC-C.cmake
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/Platform/Windows-MSVC.cmake
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/Platform/Windows.cmake
+D:/Program Files/CMAKE/share/cmake-3.17/Modules/Platform/WindowsPaths.cmake
